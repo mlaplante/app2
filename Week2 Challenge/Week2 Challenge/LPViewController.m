@@ -22,7 +22,10 @@
     NSString *thePath = [[NSBundle mainBundle] pathForResource:@"movies" ofType:@"plist"];
     NSDictionary* movies = [[NSDictionary alloc] initWithContentsOfFile:thePath];
     
-    NSLog(@"%@",movies);
+    NSArray* arrMovies = [[NSArray alloc] initWithArray:[movies valueForKey:@"movie"]];
+    NSLog(@"%@", [arrMovies objectAtIndex:0]);
+    
+    //objectAtIndex:0
 }
 
 - (void)didReceiveMemoryWarning
