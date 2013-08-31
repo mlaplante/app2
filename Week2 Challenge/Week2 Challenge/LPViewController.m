@@ -18,6 +18,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *thePath = [[NSBundle mainBundle] pathForResource:@"movies" ofType:@"plist"];
+    NSDictionary* movies = [[NSDictionary alloc] initWithContentsOfFile:thePath];
+    
+    NSLog(@"%@",movies);
 }
 
 - (void)didReceiveMemoryWarning
