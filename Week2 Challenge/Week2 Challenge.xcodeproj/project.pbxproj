@@ -18,6 +18,7 @@
 		85E8FCE417D2489100A838ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E8FCE317D2489100A838ED /* Default-568h@2x.png */; };
 		85E8FCE717D2489100A838ED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E8FCE517D2489100A838ED /* MainStoryboard.storyboard */; };
 		85E8FCEA17D2489100A838ED /* LPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E8FCE917D2489100A838ED /* LPViewController.m */; };
+		85E8FCF117D2491100A838ED /* movies.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85E8FCF017D2491100A838ED /* movies.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		85E8FCE617D2489100A838ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		85E8FCE817D2489100A838ED /* LPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPViewController.h; sourceTree = "<group>"; };
 		85E8FCE917D2489100A838ED /* LPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPViewController.m; sourceTree = "<group>"; };
+		85E8FCF017D2491100A838ED /* movies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = movies.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		85E8FCD317D2489100A838ED /* Week2 Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				85E8FCF017D2491100A838ED /* movies.plist */,
 				85E8FCDC17D2489100A838ED /* LPAppDelegate.h */,
 				85E8FCDD17D2489100A838ED /* LPAppDelegate.m */,
 				85E8FCE517D2489100A838ED /* MainStoryboard.storyboard */,
@@ -164,6 +167,7 @@
 				85E8FCE217D2489100A838ED /* Default@2x.png in Resources */,
 				85E8FCE417D2489100A838ED /* Default-568h@2x.png in Resources */,
 				85E8FCE717D2489100A838ED /* MainStoryboard.storyboard in Resources */,
+				85E8FCF117D2491100A838ED /* movies.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
