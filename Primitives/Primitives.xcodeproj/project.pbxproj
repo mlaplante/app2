@@ -10,6 +10,7 @@
 		85E8FCB117D22E2600A838ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E8FCB017D22E2600A838ED /* Foundation.framework */; };
 		85E8FCB417D22E2600A838ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E8FCB317D22E2600A838ED /* main.m */; };
 		85E8FCB817D22E2600A838ED /* Primitives.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85E8FCB717D22E2600A838ED /* Primitives.1 */; };
+		85E8FCC017D23F3A00A838ED /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E8FCBF17D23F3A00A838ED /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		85E8FCB317D22E2600A838ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85E8FCB617D22E2600A838ED /* Primitives-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Primitives-Prefix.pch"; sourceTree = "<group>"; };
 		85E8FCB717D22E2600A838ED /* Primitives.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Primitives.1; sourceTree = "<group>"; };
+		85E8FCBE17D23F3A00A838ED /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		85E8FCBF17D23F3A00A838ED /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				85E8FCB317D22E2600A838ED /* main.m */,
+				85E8FCBE17D23F3A00A838ED /* TestClass.h */,
+				85E8FCBF17D23F3A00A838ED /* TestClass.m */,
 				85E8FCB717D22E2600A838ED /* Primitives.1 */,
 				85E8FCB517D22E2600A838ED /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85E8FCB417D22E2600A838ED /* main.m in Sources */,
+				85E8FCC017D23F3A00A838ED /* TestClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
