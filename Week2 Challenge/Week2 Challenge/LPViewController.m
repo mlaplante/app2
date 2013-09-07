@@ -24,8 +24,18 @@
     
     NSArray* arrMovies = [[NSArray alloc] initWithArray:[movies valueForKey:@"movie"]];
     NSLog(@"%@", [arrMovies objectAtIndex:0]);
+    NSLog(@"%@", [arrMovies lastObject]);
     
-    //objectAtIndex:0
+    //NSMutableArray* arrTitles = [[NSMutableArray alloc] nil];
+    
+    for(int i=0; i < [arrMovies count]; i++){
+        id myMovie = [arrMovies objectAtIndex:0];
+        NSLog(@"title: %@", [NSString stringWithFormat:@"%@", [myMovie valueForKey:@"title"]]);
+        //[arrTitles addObject:title];
+        //NSLog(@"title: @%", title);
+    }
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
